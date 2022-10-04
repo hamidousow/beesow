@@ -4,18 +4,18 @@
 }
 
 :root {
-    --bg-grey: #dddddd;    
-    --bg-black: #080808;
-    --bg-dark-grey: #1f1f1f;  
-    --bg-white: #ffffff;
-    --bg-gold: #D8A928;
-    --bg-blue: #051723;
-    --bg-orange: #fdb234;
-    --bg-red: #b01902;
-    --bg-black-00: #000000;
-    --bg-miae-light-blue: #cdd2df;
-    --bg-miae-blue: #314274;
-    --bg-miae-dark-blue: #283660;
+    --clr-grey: #dddddd;    
+    --clr-black: #080808;
+    --clr-dark-grey: #1f1f1f;  
+    --clr-white: #ffffff;
+    --clr-gold: #D8A928;
+    --clr-blue: #010b13;
+    --clr-orange: #fdb234;
+    --clr-red: #b01902;
+    --clr-black-00: #000000;
+    --clr-miae-light-blue: #cdd2df;
+    --clr-miae-blue: #314274;
+    --clr-miae-dark-blue: #283660;
 
     --font-fieldwork: font-family: fieldwork, sans-serif;	
     --text-grey: #d5d5d5;    
@@ -30,7 +30,7 @@
 }
 
 body {
-	background-color: var(--bg-black);
+	background-color: var(--clr-blue);
 	color: var(--text-grey);
     scroll-behavior: smooth;
 }
@@ -158,7 +158,7 @@ body {
     color: var(--text-grey);    
 	text-transform: uppercase;
 	transition: .5s;
-	border: 1px var(--bg-dark-grey) solid;
+	border: 1px var(--clr-dark-grey) solid;
 	border-radius: 5px;
 	padding: 1.2em 2em;
 }
@@ -211,7 +211,7 @@ body {
 /* gallerie images */
 
 .section-logo {
-    background: var(--bg-grey);
+    background: var(--clr-grey);
     padding: 8em;
 }
 
@@ -228,7 +228,7 @@ body {
 /* suggest project */
 
 .section-projects {
-    background: var(--bg-black);
+    background: var(--clr-black);
     color: var(--text-grey);
 }
 
@@ -261,7 +261,7 @@ body {
 	overflow: hidden;
 	position: relative;	
 	cursor: pointer;
-    border: 1px var(--bg-dark-grey) solid;
+    border: 1px var(--clr-dark-grey) solid;
 	border-radius: 5px;	
     margin-bottom: 1em;			
 }
@@ -285,9 +285,9 @@ body {
     left: 0;   
     right: 0;
     bottom: 0;
-	background: var(--bg-black);
+	background: var(--clr-black);
     color: var(--text-grey);
-    border: 1px var(--bg-dark-grey) solid;    
+    border: 1px var(--clr-dark-grey) solid;    
 }
 
 .card-img {
@@ -414,7 +414,7 @@ footer a {
     letter-spacing: 3px;
     height: 36px;
     width: 100px;
-    background: var(--bg-grey);   
+    background: var(--clr-grey);   
     text-align: center;
     display: block;
     cursor: pointer;
@@ -517,7 +517,7 @@ footer a {
         overflow: hidden;
         position: relative;
         cursor: pointer;
-        border: 1px var(--bg-dark-grey) solid;
+        border: 1px var(--clr-dark-grey) solid;
         border-radius: 5px;
     }
 

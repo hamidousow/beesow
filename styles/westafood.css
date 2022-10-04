@@ -28,7 +28,7 @@
 }
 
 .section-2 {
-    background: var(--bg-black);
+    background: var(--clr-black);
     color: var(--text-grey);
 }
 
@@ -36,7 +36,7 @@
 
 .section-3 {
     color: var(--text-black);
-    background: var(--bg-grey);
+    background: var(--clr-grey);
 }
 
 .wrapper {
@@ -72,16 +72,16 @@
 /* palette couleurs */
 
 .color-1 {
-    background: var(--bg-black-00);
+    background: var(--clr-black-00);
     color: var(--text-grey);
 }
 
 .color-2 {
-    background: var(--bg-white);
+    background: var(--clr-white);
 }
 
 .color-3 {
-    background: var(--bg-gold);
+    background: var(--clr-gold);
 }
 
 /* section gallery */
