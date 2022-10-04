@@ -15,8 +15,7 @@
 
 .navigation_logo {
     transition: opacity 0.3s;
-	height: 25px;
-	width: 25px;
+	height: 19px;
 }
 
 .navigation_logo:hover {

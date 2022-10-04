@@ -228,7 +228,7 @@ body {
 /* suggest project */
 
 .section-projects {
-    background: var(--clr-black);
+    /* background: var(--clr-black); */
     color: var(--text-grey);
 }
 
