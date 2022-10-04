@@ -1,0 +1,86 @@
+.section:nth-child(1) {
+    height: auto;
+	padding: 8em;	
+}
+
+.vertical-title {
+	position: absolute;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	margin-top: 8em;
+}
+
+.title {   
+    line-height: 1.5em;
+}
+
+.small-text {	
+	font-size: var(--small-text);
+	line-height: 1.5em;
+	width: 50%;	
+}
+
+/* autre projet */
+
+.section-projects {
+	margin-bottom: 2em;
+}
+
+.section-projects .content {
+	flex-direction: column;
+}
+
+.section-projects .left {
+	width: auto;
+}
+
+.card-img-1 {
+	background-image: url(../images/westafood-bg.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;	
+}
+
+@media screen and (max-width: 991px) {
+
+	.section {
+		padding: 4em;
+	}
+
+	.section:nth-child(1) {		
+		padding: 4em;	
+	}
+
+	.content {		
+		justify-content: space-between;
+	}
+	
+	.text {
+		width: 75%;
+	}
+
+	.small-text {		
+		width: 75%;	
+	}
+ }
+
+ @media screen and (max-width: 767px) {
+	
+ }
+
+ @media screen and (max-width: 575px) {
+
+	.section, .section:nth-child(1) {
+		padding: 1em 2em;
+	}
+	
+	.small-text {		
+		width: 100%;	
+	}
+	
+ }
+

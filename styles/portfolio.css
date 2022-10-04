@@ -1,0 +1,93 @@
+.container-slider {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#portfolio {
+	height: auto;
+	padding: 8em;
+}
+
+/*.slider {
+    display: flex;
+    justify-content: space-between;    
+}*/
+
+.card-project {
+	width: 49%;	
+	margin-bottom: 1em;		
+}
+
+/* projects img */ 
+
+.card-img-1 {
+	background-image: url(../images/hdm-banniere-2.jpg);	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.card-img-2 {
+	background-image: url(../images/westafood-bg.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.card-img-3 {
+	background-image: url(../images/miae-banniere.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+@media screen and (max-width: 991px) {
+	
+	.contain-all-nav {
+		padding: 1em 1.5em;			
+    } 
+	
+	.container-slider {		
+		flex-direction: column;		
+	}
+	
+	.card-project {
+		/*height: 300px;*/
+		width: 100%;
+		margin-bottom: 3em;
+	}
+	
+ }
+
+ @media screen and (max-width: 575px) {	
+
+	#nav-mobile .link-nav a {	
+		font-size: 1.5em;
+		letter-spacing: .1em;		  
+	}
+
+	.container-titles {
+		margin-bottom: 3em;
+	}
+
+	#portfolio {	
+		padding: 5em 2em;
+	}
+
+	.card-project {
+		height: 300px;
+	}
+
+	footer {
+		padding: 1em 2em;
+	}   
+ }
+
+
+ 
+ 
+

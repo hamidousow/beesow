@@ -1,0 +1,46 @@
+
+.section {
+    height: 85vh;
+}
+
+.big-title {    
+    text-transform: lowercase;
+    font-size: 5vw;
+    text-align: center;
+       
+}
+
+.container-titles {
+    position: relative;
+    height: 50px;
+}
+
+.big-title {
+    text-transform: lowercase;
+    font-size: 5.5vw;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;  
+}
+
+.big-title a {
+    text-decoration: none;
+    transition: .5s;
+    color: var(--text-grey);     
+}
+
+.big-title a:hover {
+    font-size: 5.8vw;
+}
+
+/* social medias */ 
+
+.section .container-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

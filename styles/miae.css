@@ -1,0 +1,252 @@
+
+.banniere {
+    background-image: url(../images/miae-banniere.jpg);
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 {
+    position: relative;
+}
+
+.action {
+    color: var(--text-black);   
+}
+
+.content-start, .content-end {
+    width: 100%; 
+    max-width: 1400px; 
+    display: flex;  
+    margin: auto;
+}
+
+.content-start {
+    justify-content: flex-start;    
+}
+
+.content-end {
+    justify-content: flex-end;
+}
+
+/* */
+
+.project-title {
+    font-size: 0.8em;     
+    text-transform: uppercase;       
+}
+
+.section-2 {
+    background: var(--bg-black);
+    color: var(--text-grey);
+}
+
+/* */
+
+.section-3 {
+    color: var(--text-black);
+    background: var(--bg-grey);
+    height: auto;
+}
+
+.subtitle {
+    font-size: var(--subtitle-size);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.title-bold {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-family {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.section-3 .left {
+    margin-bottom: 6em;    
+}
+
+/* palette couleurs */
+
+.color {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .1em;
+    font-size: 1.2em;   
+    box-shadow: var(--box-shadow);
+}
+
+.color-1 {
+    background: var(--bg-miae-light-blue);
+   
+}
+
+.color-2 {
+    background: var(--bg-miae-blue);
+}
+
+.color-3 {
+    background: var(--bg-miae-dark-blue);
+}
+
+.color-4 {
+    background: var(--bg-white);
+    
+}
+
+/* section 4 */
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0 8em;
+    background: var(--bg-grey);
+    color: var(--text-black);       
+}
+
+.container-model {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.title-media {
+    font-weight: lighter;
+}
+
+.desktop-model, .tab-model {
+    width: 47%;
+}
+
+.model-img {
+    display: block;
+    width: 100%;
+}
+
+.section-5 {
+    background: var(--bg-dark-grey); 
+}
+
+.section-6 {
+    background: linear-gradient(180deg, var(--bg-dark-grey) 65%, var(--bg-black) 0);
+}
+
+.section-5 .title, .section-6 .title {
+    color: var(--text-grey);
+}
+
+.container-model-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;     
+}
+
+.mobile-model {
+    width: 28%;
+    max-width: 300px;   
+} 
+
+.margin-5 {
+    margin-top: 5%;
+}
+
+.margin-10 {
+    margin-top: 10%;
+}
+
+/* autre projet */
+
+.card-img-1 {
+	background-image: url(../images/hdm-banniere-2.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;	
+}
+
+@media screen and (max-width: 991px) {     
+    
+    .section-4 {
+        padding: 1em 4em;
+    }       
+}
+
+@media screen and (max-width: 765px) {    
+
+    .container-model-mobile {        
+        padding: 1em;
+    }
+
+    .mobile-model {
+        width: 31%;
+    }
+
+    #tab-screen, #mobile-screen {        
+        height: 55vh;
+    }
+
+    .section-6 {
+        background: linear-gradient( 
+    180deg
+    , var(--bg-dark-grey) 45%, var(--bg-black) 0);
+    }   
+}
+
+@media screen and (max-width: 575px) {   
+
+    .section-4 {
+        padding: 1em 2em;
+    }
+
+    .section-3 .left {
+        margin-bottom: 3em;
+    }
+    
+    .grid-color {	
+		width: 100%;		
+	}
+
+    .container-model-mobile {        
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

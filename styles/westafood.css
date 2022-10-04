@@ -1,0 +1,147 @@
+.section-1 {    
+    position: relative;  
+}
+
+.banniere {
+    background-image: url(../images/banniere-westafood.jpg);
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.action {
+    color: var(--text-grey);
+}
+
+.content, .content-start, .content-end {  
+    margin: auto;
+}
+
+.content-start {
+    justify-content: flex-start;
+    position: relative; 
+}
+
+.content-end {
+    justify-content: flex-end;
+}
+
+.section-2 {
+    background: var(--bg-black);
+    color: var(--text-grey);
+}
+
+/* */
+
+.section-3 {
+    color: var(--text-black);
+    background: var(--bg-grey);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-identity {
+    display: flex; 
+    width: 100%;
+}
+
+.font-family {
+    font-size: 32px;
+}
+
+.arya-single {
+    font-family: arya-single,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arya-double {
+    font-family: arya-double,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-3 .left {
+    margin-bottom: 6em;    
+}
+
+/* palette couleurs */
+
+.color-1 {
+    background: var(--bg-black-00);
+    color: var(--text-grey);
+}
+
+.color-2 {
+    background: var(--bg-white);
+}
+
+.color-3 {
+    background: var(--bg-gold);
+}
+
+/* section gallery */
+
+.container-model {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery-img {
+    display: block;   
+}
+
+.gallery-img img {
+    display: block;
+    width: 100%;
+}
+
+.gallery-img {
+    margin-bottom: 2em;
+} 
+
+/* img autres projets */
+
+.card-img-1 {
+	background-image: url(../images/miae-banniere.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;	
+}
+
+@media screen and (max-width: 991px) {
+
+    .content {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 575px) {    
+
+    .section-1, .section-2 {
+        height: 70vh;        
+    }
+
+    .project-img {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "name": "beesow.fr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamidou.s hamidou.sow@hotmail.fr",
+  "license": "ISC"
+}
