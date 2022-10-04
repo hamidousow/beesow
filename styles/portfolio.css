@@ -65,7 +65,7 @@
 
  @media screen and (max-width: 575px) {	
 
-	#nav-mobile .link-nav a {	
+	#nav-mobile .navigation_link a {	
 		font-size: 1.5em;
 		letter-spacing: .1em;		  
 	}
