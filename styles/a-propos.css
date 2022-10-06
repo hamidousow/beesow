@@ -19,7 +19,7 @@
 }
 
 .small-text {	
-	font-size: var(--small-text);
+	font-size: ($small-text);
 	line-height: 1.5em;
 	width: 50%;	
 }

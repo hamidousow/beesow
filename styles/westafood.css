@@ -11,7 +11,7 @@
 }
 
 .action {
-    color: var(--text-grey);
+    color: var($text-grey);
 }
 
 .content, .content-start, .content-end {  
@@ -28,15 +28,15 @@
 }
 
 .section-2 {
-    background: var(--clr-black);
-    color: var(--text-grey);
+    background: var($clr-black);
+    color: var($text-grey);
 }
 
 /* */
 
 .section-3 {
-    color: var(--text-black);
-    background: var(--clr-grey);
+    color: var($text-black);
+    background: var($clr-grey);
 }
 
 .wrapper {
@@ -72,16 +72,16 @@
 /* palette couleurs */
 
 .color-1 {
-    background: var(--clr-black-00);
-    color: var(--text-grey);
+    background: var($clr-black-00);
+    color: var($text-grey);
 }
 
 .color-2 {
-    background: var(--clr-white);
+    background: var($clr-white);
 }
 
 .color-3 {
-    background: var(--clr-gold);
+    background: var($clr-gold);
 }
 
 /* section gallery */

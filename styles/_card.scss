@@ -1,0 +1,82 @@
+.card-project {
+	width: 100%;
+	max-width: 1000px;
+    height: 350px;	
+	overflow: hidden;
+	position: relative;	
+	cursor: pointer;
+    box-shadow: 0px 5px 3px #00000061;
+	border-radius: 5px;	
+    margin-bottom: 1em;			
+}
+
+.card-link {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	// z-index: 1;
+}
+
+.card-content {
+	display: flex;
+    position: absolute;
+    width: auto;	
+    height: 20%;
+	flex-direction: column;	
+	z-index: 2;	
+    padding: 1em;
+    left: 0;   
+    right: 0;
+    bottom: 0;
+	background: $clr-light-blue;
+    color: $text-grey;
+}
+
+.card-img {
+	height: 71%;
+	transition: 1000ms;
+    filter: grayscale(1);	
+}
+
+.card-project:hover .card-img {
+	transform: scale(1.1);
+	filter: grayscale(0);		
+}
+
+.card-img-1 {
+	background-image: url(../images/miae-banniere.jpg);		
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.card-project:hover .card-img {
+	transform: scale(1.1);
+	filter: grayscale(0);		
+}
+
+.card-title {
+    font-size: .9em;
+    color: $text-grey;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0.7em 0;
+}
+
+.card-subtitle {
+    font-size: 0.9em;	
+	font-weight: lighter;
+	letter-spacing: .1em;
+}
+
+.section-projects .container-link {
+	display: flex;
+	align-items: center;
+    justify-content: flex-end;
+    margin-top: 3em;	
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

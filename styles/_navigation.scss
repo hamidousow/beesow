@@ -5,12 +5,12 @@
     right: 0;
     left: 0;
     top: 0;        
-    padding: 17px 40px;
+    padding: 17px 50px;
     z-index: 10;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    background-color: var(--clr-blue);  
+    background-color: $clr-blue;  
 }
 
 .navigation_logo {
@@ -54,7 +54,7 @@
     padding: 5px;
     z-index: -10;
     height: 100vh;
-    background-color: var(--clr-blue);   
+    background-color: $clr-blue;   
     animation: dropMenu .5s ease-in-out;
 }
 
@@ -82,11 +82,11 @@
 .navigation_link a {
     margin-left: 0;
 	font-family: fieldwork, sans-serif;
-	font-weight: bold;
+	font-weight: 500;
 	text-decoration: none;
     text-transform: uppercase;
-	color: var(--text-grey);
-    font-size: 21px;
+	color: $text-grey;
+    font-size: 17px;
     letter-spacing: 2px;      
     display: block;	
 }
@@ -95,7 +95,7 @@
 	height: 1px;
 	width: 100%;
 	border-radius: 1px;
-	background: var(--clr-dark-grey);
+	background: $clr-dark-grey;
 	margin: 1.5em 0;
 }
 
@@ -136,7 +136,7 @@
 }
 
 #bgSideMenu {
-    background-color: var(--clr-black);
+    background-color: $clr-black;
     box-shadow: 1px 1px 15px #000000;
     width: 0%;
     height: 100vh;
@@ -159,6 +159,9 @@
         white-space: nowrap;       
         visibility: visible; 
         list-style-type: none;
+        flex: 0 0 550px;
+        justify-content: flex-end;
+        column-gap: 15px;
     }
 
     #navigation_burger-btn, #navigation_close-btn {

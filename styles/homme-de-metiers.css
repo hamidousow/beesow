@@ -13,7 +13,7 @@
 }
 
 .action {
-    color: var(--text-black);   
+    color: ($text-black);   
 }
 
 .content-start, .content-end {
@@ -39,20 +39,20 @@
 }
 
 .section-2 {
-    background: var(--clr-black);
-    color: var(--text-grey);
+    background: ($clr-black);
+    color: ($text-grey);
 }
 
 /* */
 
 .section-3 {
-    color: var(--text-black);
-    background: var(--clr-grey);
+    color: ($text-black);
+    background: ($clr-grey);
     height: auto;
 }
 
 .subtitle {
-    font-size: var(--subtitle-size);
+    font-size: ($subtitle-size);
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 2em;
@@ -96,25 +96,25 @@
     justify-content: center;
     letter-spacing: .1em;
     font-size: 1.2em;   
-    box-shadow: var(--box-shadow);
+    box-shadow: ($box-shadow);
 }
 
 .color-1 {
-    background: var(--clr-blue);
-    color: var(--text-grey);
+    background: ($clr-blue);
+    color: ($text-grey);
 }
 
 .color-2 {
-    background: var(--clr-grey);
+    background: ($clr-grey);
 }
 
 .color-3 {
-    background: var(--clr-orange);
+    background: ($clr-orange);
 }
 
 .color-4 {
-    background: var(--clr-red);
-    color: var(--text-grey);
+    background: ($clr-red);
+    color: ($text-grey);
 }
 
 /* section 4 */
@@ -125,8 +125,8 @@
     justify-content: center;
     height: auto;
     padding: 0 8em;
-    background: var(--clr-grey);
-    color: var(--text-black);       
+    background: ($clr-grey);
+    color: ($text-black);       
 }
 
 .container-model {
@@ -150,15 +150,15 @@
 }
 
 .section-5 {
-    background: var(--clr-dark-grey); 
+    background: ($clr-dark-grey); 
 }
 
 .section-6 {
-    background: linear-gradient(180deg, var(--clr-dark-grey) 65%, var(--clr-black) 0);
+    background: linear-gradient(180deg, ($clr-dark-grey) 65%, ($clr-black) 0);
 }
 
 .section-5 .title, .section-6 .title {
-    color: var(--text-grey);
+    color: ($text-grey);
 }
 
 .container-model-mobile {
@@ -214,7 +214,7 @@
     .section-6 {
         background: linear-gradient( 
     180deg
-    , var(--clr-dark-grey) 45%, var(--clr-black) 0);
+    , ($clr-dark-grey) 45%, ($clr-black) 0);
     }   
 }
 

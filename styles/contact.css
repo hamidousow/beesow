@@ -28,7 +28,7 @@
 .big-title a {
     text-decoration: none;
     transition: .5s;
-    color: var(--text-grey);     
+    color: ($text-grey);     
 }
 
 .big-title a:hover {
