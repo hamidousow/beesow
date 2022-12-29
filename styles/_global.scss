@@ -53,15 +53,15 @@ width: 100%;
 /* Outlines Titles */
 
 .big-title {
-font-family: fieldwork, sans-serif;
-font-size: 11vmin;	
-letter-spacing: .1em;
-
-font-weight: 900;
-font-style: normal;
-text-transform: uppercase;
-color: $text-grey;
-max-width: 100%;
+    font-family: fieldwork, sans-serif;
+    font-size: clamp(40px, 9vw, 115px);	
+    letter-spacing: .1rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    color: $text-grey;
+    max-width: 100%;
 }
 
 .outlines { /* Prefix required. Even Firefox only supports the -webkit- prefix */
@@ -108,7 +108,8 @@ z-index: 1;
     font-weight: lighter;
     line-height: 1.5em;
     letter-spacing: .1em;
-    width: 50%;
+    max-width: 800px;
+    margin-bottom: 2rem;
 }
 
 .small-text {
@@ -144,19 +145,19 @@ z-index: 1;
 /* Button */
 
 .button {
-display: block;  
+    display: block;  
     width: fit-content;
     width: -moz-fit-content;
-height: auto;
-font-size: .8em;	
-letter-spacing: .1em;       
+    height: auto;
+    font-size: .8em;	
+    letter-spacing: .1em;       
     text-decoration: none;    
     color: $text-grey;    
-text-transform: uppercase;
-transition: .5s;
-border: 1px $clr-dark-grey solid;
-border-radius: 5px;
-padding: 1.2em 2em;
+    text-transform: uppercase;
+    transition: .5s;
+    border: 1px $clr-dark-grey solid;
+    border-radius: 5px;
+    padding: 1.2em 2em;
 }
 
 .button:hover {	
@@ -228,53 +229,36 @@ letter-spacing: .2em;
     color: $text-grey;
 }
 
-.container-titles, .container-text {
-    margin-bottom: 2em;
-}
-
 .small-title {
-text-transform: uppercase;	
-font-size: 4vmin;
-}
-
-.container-slider {
-width: 90%;
-margin: auto;
-    flex-wrap: wrap; 
-}
-
-.slider {
-    display: flex;
-justify-content: center;	
-height: 350px; 
-
+    text-transform: uppercase;	
+    font-size: 4vmin;
 }
 
 .link {
-color: $text-grey;
-font-size: .8em;
-letter-spacing: .1em;
-text-decoration: none;
-text-transform: uppercase;
-transition: all .30s;
+    color: $text-grey;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .30s;
 }
 
 .link:hover {
-color: $text-grey;	
+    color: $text-grey;	
     letter-spacing: .2em;
-text-transform: uppercase;	
+    text-transform: uppercase;	
 }
 
 /* Footer */
 
 footer {
-height: 25vh;
-padding: 1em 8em;
+    height: 25vh;
+    padding: 1em 8em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-font-family: fieldwork, sans-serif;	
+    font-family: fieldwork, sans-serif;	
 }
 
 .content-footer {
@@ -293,8 +277,8 @@ footer .container-social {
 }
 
 footer a {	 
-color: #b0b0b0;
-font-size: 14px; 
+    color: #b0b0b0;
+    font-size: 14px; 
     text-decoration: none;
 }
 
@@ -384,12 +368,7 @@ font-size: 14px;
 .container-social {		
     width: 100%;
 }
-
-/* text */
-
-.text {        
-    width: 100%;
-}    
+ 
 
 /* footer */
 
@@ -406,33 +385,21 @@ footer .container-social {
 
 .section {
     padding: 1em 2em;
-    height: 90vh;
+    // height: 90vh;
 }
 
 .section-logo, .section-gallery {
-padding: 2em;
+    padding: 2em;
 }
 
 .container-banniere {        
     height: 85vh;             
 }
 
-.big-title {
-    font-size: 11vmin;
-}
-
-.text {
-    font-size: 1.125em;       
-}
-
-/* autres projets */ 
-
-.container-titles, .container-text {
-    margin-bottom: 3em;
-}  
+/* autres projets */
 
 .slider {		
-height: 300px;
+    height: 300px;
 }
 
     .card-project {

@@ -91,8 +91,9 @@ body {
 /* Outlines Titles */
 .big-title {
   font-family: fieldwork, sans-serif;
-  font-size: 11vmin;
-  letter-spacing: .1em;
+  font-size: clamp(40px, 9vw, 115px);
+  letter-spacing: .1rem;
+  margin-bottom: 2rem;
   font-weight: 900;
   font-style: normal;
   text-transform: uppercase;
@@ -150,7 +151,8 @@ body {
   font-weight: lighter;
   line-height: 1.5em;
   letter-spacing: .1em;
-  width: 50%;
+  max-width: 800px;
+  margin-bottom: 2rem;
 }
 
 .small-text {
@@ -281,30 +283,9 @@ body {
   color: #d5d5d5;
 }
 
-.container-titles, .container-text {
-  margin-bottom: 2em;
-}
-
 .small-title {
   text-transform: uppercase;
   font-size: 4vmin;
-}
-
-.container-slider {
-  width: 90%;
-  margin: auto;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 350px;
 }
 
 .link {
@@ -456,10 +437,6 @@ footer a {
   .container-social {
     width: 100%;
   }
-  /* text */
-  .text {
-    width: 100%;
-  }
   /* footer */
   footer .container-social {
     width: 80%;
@@ -473,7 +450,6 @@ footer a {
   }
   .section {
     padding: 1em 2em;
-    height: 90vh;
   }
   .section-logo, .section-gallery {
     padding: 2em;
@@ -481,16 +457,7 @@ footer a {
   .container-banniere {
     height: 85vh;
   }
-  .big-title {
-    font-size: 11vmin;
-  }
-  .text {
-    font-size: 1.125em;
-  }
   /* autres projets */
-  .container-titles, .container-text {
-    margin-bottom: 3em;
-  }
   .slider {
     height: 300px;
   }
@@ -839,13 +806,12 @@ footer a {
   width: 100%;
 }
 
-.card-content {
+.card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   width: auto;
-  height: 20%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -860,7 +826,7 @@ footer a {
 }
 
 .card-img {
-  height: 71%;
+  height: 100%;
   -webkit-transition: 1000ms;
   transition: 1000ms;
   -webkit-filter: grayscale(1);
